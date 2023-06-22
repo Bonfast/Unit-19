@@ -1,5 +1,5 @@
 import math
-# test_addition - объявление функции сложения
+
 def test_addition():
     result = math.add(2, 3)
     assert result == 5
