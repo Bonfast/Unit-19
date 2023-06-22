@@ -4,7 +4,6 @@ response = requests.get("https://petstore.swagger.io/v2/pet/findByStatus?status=
 print(response.json())
 
 
-
 import requests
 
 data = {
@@ -16,12 +15,12 @@ response = requests.post("https://petstore.swagger.io/v2/pet", json=data)
 print(response.json())
 
 
-
 import requests
 
 pet_id = 444555
 response = requests.delete(f"https://petstore.swagger.io/v2/pet/{pet_id}")
 print(response.json())
+
 
 import requests
 
